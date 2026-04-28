@@ -16,7 +16,7 @@ def run():
     print("python main.pyИНФОРМАЦИЯ О СИСТЕМЕ")
 
     # === Секция 1: Операционная система ===
-    print("\n1. ОПЕРАЦИОННАЯ СИСТЕМА")
+    print("\n1. ОПЕРАЦИОННАЯ СИСТЕМА")  
     print(f"ОС:                  {platform.system()} {platform.release()}")
     print(f"Версия:              {platform.version()}")
     print(f"Ядро:                {platform.uname().release}")
