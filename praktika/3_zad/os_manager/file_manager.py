@@ -191,7 +191,7 @@ def create_zip():
 def run():
     global current_dir
     while True:
-        print("ФАЙЛОВЫЙ МЕНЕДЖЕР (упрощённый)")
+        print("ФАЙЛОВЫЙ МЕНЕДЖЕР")
         print(f"Папка: {current_dir}")
         print("1. Показать файлы")
         print("2. Сменить папку")

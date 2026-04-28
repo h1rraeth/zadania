@@ -23,3 +23,14 @@
 2026-04-28 23:10:08,927 | INFO | system_info | Подсистема system_info завершена успешно
 2026-04-28 23:15:39,936 | INFO | process_manager | Выведено 228 процессов (sort_by=cpu)
 2026-04-28 23:16:30,675 | INFO | process_manager | Просмотрены детали PID=23380 (opera.exe)
+2026-04-28 23:32:48,750 | INFO | file_manager | Просмотр папки: D:\vscode-proj\zadania\praktika\3_zad\os_manager
+2026-04-28 23:33:07,141 | INFO | file_manager | Смена папки → D:\vscode-proj\zadania\praktika\3_zad\os_manager\logs
+2026-04-28 23:33:31,260 | INFO | file_manager | Смена папки → D:\vscode-proj\zadania\praktika\3_zad\os_manager
+2026-04-28 23:33:55,706 | INFO | file_manager | Создан файл test.txt
+2026-04-28 23:34:04,970 | INFO | file_manager | Создана папка test
+2026-04-28 23:34:18,044 | INFO | file_manager | Скопировано test.txt
+2026-04-28 23:34:46,910 | INFO | file_manager | Перемещено test.txt → test1.txt
+2026-04-28 23:34:58,933 | INFO | file_manager | Удалён файл test1.txt
+2026-04-28 23:35:26,607 | INFO | file_manager | Поиск '*.py' — найдено 8
+2026-04-28 23:35:53,915 | INFO | file_manager | Хэши посчитаны для test/test.txt
+2026-04-28 23:36:19,164 | INFO | file_manager | Создан ZIP: test11.zip
