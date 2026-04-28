@@ -34,3 +34,6 @@
 2026-04-28 23:35:26,607 | INFO | file_manager | Поиск '*.py' — найдено 8
 2026-04-28 23:35:53,915 | INFO | file_manager | Хэши посчитаны для test/test.txt
 2026-04-28 23:36:19,164 | INFO | file_manager | Создан ZIP: test11.zip
+2026-04-28 23:43:02,672 | INFO | resource_monitor | Живой мониторинг остановлен
+2026-04-28 23:43:36,130 | INFO | resource_monitor | Метрики записаны в metrics.csv
+2026-04-28 23:44:01,722 | INFO | resource_monitor | Запущены пороговые оповещения
