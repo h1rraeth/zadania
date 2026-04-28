@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 63: unterminated string literal
+    h "Чёрт… "Недостаточно средств."
+
+Ren'Py Version: Ren'Py 8.5.2.26010301
+Tue Apr 28 11:23:15 2026

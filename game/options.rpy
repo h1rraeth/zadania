@@ -8,5 +8,5 @@ define gui.about = _("""Визуальная новелла про зависи�
 
 define build.name = "stavka"
 
-define config.screen_width = 1440
-define config.screen_height = 900
+define config.screen_width = 1280
+define config.screen_height = 720
