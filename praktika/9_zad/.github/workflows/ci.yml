@@ -2,13 +2,17 @@ name: Python CI/CD Pipeline
 
 on:
   push:
-    branches: ["main"]
+    branches: [ "main" ]
   pull_request:
-    branches: ["main"]
+    branches: [ "main" ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./praktika/9_zad   # ← Важно!
 
     steps:
       - name: Checkout code
@@ -17,7 +21,7 @@ jobs:
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -26,4 +30,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -v
+          python -m pytest -v --tb=short

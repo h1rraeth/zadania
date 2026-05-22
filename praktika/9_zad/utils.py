@@ -1,13 +1,13 @@
-def add(a: float, b: float) -> float:
+def add(a, b):
     return a + b
 
-def subtract(a: float, b: float) -> float:
+def subtract(a, b):
     return a - b
 
-def multiply(a: float, b: float) -> float:
+def multiply(a, b):
     return a * b
 
-def divide(a: float, b: float) -> float:
+def divide(a, b):
     if b == 0:
         raise ValueError("Деление на ноль невозможно!")
     return a / b
